@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BLUE HEADER  */
+.heder {
+    padding: 0;
+    background-color: rgb(45, 149, 218);
+    max-width: 200vh;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+}
+
+.invoice h2 {
+    color: white;
+    margin-left: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 2.8rem;
+}
+
+.paragraf1, .paragraf2 {
+    color: white;
+    text-align: right;
+    margin-right: 100px;
+    line-height: 25px;
+}
+
+/* SECTION 2 */
+
+.section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-left: 40px;
+    margin-top: 70px;
+    line-height: 25px;
+    border-bottom: 3px solid rgb(45, 149, 218);
+}
+
+.left {
+    margin-bottom: 70px;
+}
+
+.sivo {
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+}
+
+.right {
+    text-align: right;
+    margin-right: 80px;
+}
+
+.price {
+    font-size: 2.3rem;
+    color: rgb(45, 149, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+/* DESCRIPTION */
+
+.delovi1{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    margin-left: 40px;
+    line-height: 25px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.delovi1 ul:first-child{
+    margin-right: 555px;
+}
+
+.delovi1 ul:last-child{
+    text-align: right;
+    margin-right: 80px;
+}
+.delovi2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    margin-left: 40px;
+    line-height: 25px;
+    border-bottom: solid 1px lightgray;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.781);
+    text-align: right;
+}
+
+.delovi2 ul:first-child{
+    margin-right: 200px;
+    text-align: left;
+}
+
+
+.delovi2 ul:last-child {
+    margin-right: 80px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.plava {
+    color:rgb(45, 149, 218);
+}
+.a1 {
+    margin-right: 37px;
+}
+
+/* FOOTER */
+.footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    line-height: 25px;
+    text-align: right;
+    padding: 60px 80px 0 40px;
+}
+.prvi-d{
+    text-align: left;
+    margin-top: 70px;
+
+}
